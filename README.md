@@ -58,6 +58,8 @@ Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que e
 O código está concluido e já pode ser usado. Quando for usar não se esqueça de mudar a string de conexão com banco de dados para um que você possa usar, e se quiser mudar o nome da base de dados. Garanta também que tenha esse pacotes na sua maquina:
 - dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.0
 - dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.0
+
 A migration já está criada, então acredito que não vai ter problemas em usar, acredito que seja só fazer o
 - dotnet-ef database update
+
 Quaquer problema em usar o código por favar abra uma ISSUE pra mim, trabalharei para aprimorar o código
