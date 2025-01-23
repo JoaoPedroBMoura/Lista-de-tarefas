@@ -13,7 +13,7 @@ A sua aplicação deverá ser do tipo Web API ou MVC, fique a vontade para imple
 
 A sua classe principal, a classe de tarefa, deve ser a seguinte:
 
-![Diagrama da classe Tarefa](diagrama.png)
+![Diagrama da classe Tarefa](./img/diagrama.png)
 
 Não se esqueça de gerar a sua migration para atualização no banco de dados.
 
@@ -24,7 +24,7 @@ Não se esqueça de gerar a sua migration para atualização no banco de dados.
 **Swagger**
 
 
-![Métodos Swagger](swagger.png)
+![Métodos Swagger](./img/swagger.png)
 
 
 **Endpoints**
@@ -55,4 +55,19 @@ Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que e
 
 
 ## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+The code is complete and functional, meeting all the requirements listed above.
+
+> This API was built using .NET version 6.0.428 and has a global.json file that configured the creation of this environment.
+
+> This API has a default connection string of Sql Server, which was the DB used for local testing. Make whatever changes to the database you want, however, the string name is being accessed in Program.cs
+
+> Swagger was used to interact with this application. It automatically opens in the .NET version of this API when we use the `dotnet watch run` command in the power shell terminal.
+    
+    ![Imagem do Swagger](./img/HomeAPI.png)
+
+>To use this API, simply download this repository and have it on your machine:
+>   - version 6.0 of .NET on the machine
+>   - Entity Framework version 6
+>   - package EntityFrameworkCore.Design version 6 
+>   - package EntityFrameworkCore.SqlServer version 6
+>       - They were used to make the Migrations
