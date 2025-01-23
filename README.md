@@ -70,4 +70,4 @@ The code is complete and functional, meeting all the requirements listed above.
 >   - Entity Framework version 6
 >   - package EntityFrameworkCore.Design version 6 
 >   - package EntityFrameworkCore.SqlServer version 6
->       - They were used to make the Migrations
+>       - They were used to make the Migrations. Believe me, the only thing missing is you, the user, using the: dotnet-ef database update
